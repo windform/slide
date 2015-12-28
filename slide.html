@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>slide</title>
+<link rel="stylesheet" href="css/slide.css"/>
+<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/slide.js"></script>
+<script>
+	$(function(){
+			var hi=new slide();
+			hi.slide({
+				tu:["sample1.jpg","sample2.jpg","sample3.jpg","sample4.jpg"],
+				speed:1000
+			});
+	})	
+</script>
+</head>
+<body>
+<div class="slide_wrap"></div>
+</body>
+</html>

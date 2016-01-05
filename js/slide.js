@@ -2,11 +2,7 @@
 function slide(){
 	this.cfg={
 		tu:["demo1.jpg","demo2.jpg","demo3.jpg","demo4.jpg"],
-		speed:800
-		
-	
-		
-		
+		speed:800		
 		}
 	
 	};
